@@ -20,7 +20,7 @@ func TestFindClosestTo0(t *testing.T) {
 	for i, test := range tests {
 		closestTo0 := FindClosestTo0(test.in)
 		if closestTo0 != test.out {
-			t.Errorf("#%d: Taille(%s)=%s; attendu %s", i, test.in, closestTo0, test.out)
+			t.Errorf("#%d: Closest(%s)=%s; expecting %s", i, test.in, closestTo0, test.out)
 		}
 	}
 }

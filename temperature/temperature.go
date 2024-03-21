@@ -5,6 +5,7 @@ import (
 )
 
 /**
+ * https://www.codingame.com/ide/puzzle/temperatures
  * Auto-generated code below aims at helping you parse
  * the standard input according to the problem statement.
  **/
@@ -33,7 +34,6 @@ func FindClosestTo0(input []string) string {
 			lower = Abs(t)
 			index = it
 		}
-		_ = t
 	}
 	return input[index]
 }
